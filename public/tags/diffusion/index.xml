@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diffusion on Waterloo Humanoid Collective</title>
+    <link>http://localhost:1313/tags/diffusion/</link>
+    <description>Recent content in Diffusion on Waterloo Humanoid Collective</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Humanoid collective</copyright>
+    <lastBuildDate>Sat, 12 Oct 2024 12:13:30 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Group 2: Diffusion Policy: Visuomotor Policy Learning via Action Diffusion</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Sat, 12 Oct 2024 12:13:30 +0530</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>
