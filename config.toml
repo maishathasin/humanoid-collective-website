@@ -1,8 +1,8 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Waterloo Humanoid Collective"
+title = "Humanoid Collective"
 theme="archie"
-copyright = "© Humanoid collective"
+copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
@@ -11,23 +11,20 @@ pygmentscodefencesguesssyntax = true
 	useCDN=false
 	subtitle = "Waterloos very own Humanoid robotics collective"
 
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://x.com/UW_humanoid"
+url = "https://twitter.com/athulcajay/"
 
-
-
-
-
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/athul/"
 
 [[menu.main]]
 name = "Home"
