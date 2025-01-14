@@ -1,0 +1,3 @@
+[submodule "humanoid/themes/archie"]
+	path = humanoid/themes/archie
+	url = https://github.com/athul/archie.git
