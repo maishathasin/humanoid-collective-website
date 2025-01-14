@@ -1,0 +1,29 @@
+[build]
+publish = "public"
+command = """
+git submodule init && 
+git submodule update && 
+hugo
+"""
+
+[build.environment]
+HUGO_VERSION = "0.123.0"
+GO_VERSION = "1.21"
+
+[context.production.environment]
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = """
+git submodule init && 
+git submodule update && 
+hugo -D -F -b $DEPLOY_PRIME_URL
+"""
+
+[context.branch-deploy]
+command = """
+git submodule init && 
+git submodule update && 
+hugo -D -F -b $DEPLOY_PRIME_URL
+"""
